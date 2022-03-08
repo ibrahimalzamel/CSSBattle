@@ -1,0 +1,77 @@
+<div id="a"></div>
+
+<div>
+<div id="upward-a" class="upward"></div>
+<div id="upward-b" class="upward"></div>
+<div id="upward-c" class="upward"></div>
+</div>
+<div>
+<div id="downward-a" class="downward"></div>
+<div id="downward-b" class="downward"></div>
+<div id="downward-c" class="downward"></div>
+<div id="downward-d" class="downward"></div>
+</div>
+
+<div id="c"></div>
+
+
+<style>
+   body {
+      margin: 0;
+      background: #6592CF;
+    }
+  div {
+   
+    background: #060F55;
+    position: absolute;
+  }
+ #a{
+     margin: 150px 130px;
+     width: 140px;
+    height: 100px;
+    border-radius: 20px 20px 110px 110px;
+  }
+  
+  #c{
+      margin: 249px 190px;
+      width:20px;
+    height: 52px;
+  }
+ .upward{
+   background: #6592CF;
+   width:20px;
+   height: 110px;
+   border-radius: 0px 0px 50px 50px;
+  }
+  #upward-a{
+    margin: 50px 150px;
+  }
+  #upward-b{
+  
+    margin: 50px 190px;
+  }
+  #upward-c{
+  
+    margin: 50px 230px;
+  }
+ .downward{
+   
+   background: #060F55;
+   width:20px;
+   height: 110px;
+   border-radius: 0px 0px 50px 50px;
+   transform: rotate(180deg);
+  }
+  #downward-a{
+      margin: 50px 130px;
+  }
+  #downward-b{
+        margin: 50px 170px;
+  }
+  #downward-c{
+        margin: 50px 210px;
+  }
+  #downward-d{
+        margin: 50px 250px;
+  }
+</style>
