@@ -1,0 +1,53 @@
+
+<!--#9 - Tesseract-->
+
+<div id="rect">
+    <div id="outer">  </div>
+    </div>
+   <div id="outer-a">
+     <div id="inner"></div>
+    </div>
+   
+  <style>
+    body {
+      margin:0;
+      background: #222730;
+    }
+    #rect {
+      margin: 75px 0px;
+      width: 400px;
+      height: 150px;
+      background: #4CAAB3;
+      overflow: hidden;
+      position: relative;
+    }
+    #outer {
+      width: 250px;
+      height: 250px;
+      background: #222730;
+      position: absolute;
+      top: -50px;
+      left: 75px;
+      transform: rotate(45deg);
+      z-index:100px;
+    }
+      #outer-a {
+      width: 150px;
+      height: 150px;
+      background: #4CAAB3;
+      position: absolute;
+      top:75px;
+      left: 125px;
+      z-index:200px;
+      transform: rotate(45deg);
+    }
+    #inner {
+      border-radius: 25px;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background: #393E46;
+      top:50px;
+      left: 50px;
+    }
+  </style>
